@@ -14,11 +14,13 @@ int main()
     // 2. 利用 DOM 作出修改。
     Value& s = d["s"];
     s.SetInt(s.GetInt() + 1);
+    Value& s1 = d["p"];
+    s1.SetString("ss", 2);
     // 3. 把 DOM 转换（stringify）成 JSON。
     StringBuffer buffer;
     Writer<StringBuffer> writer(buffer);
     d.Accept(writer);
-    // Output {"p":"r","s":11}
+    // Output {"p":"ss","s":11}
     std::cout << buffer.GetString() << std::endl;
     system("pause");
     return 0;
