@@ -15,7 +15,8 @@ int main()
     Value& s = d["s"];
     s.SetInt(s.GetInt() + 1);
     Value& s1 = d["p"];
-    s1.SetString("ss", 2);
+    char dst[] = "ss";
+    s1.SetString(dst, strlen(dst));
     // 3. 把 DOM 转换（stringify）成 JSON。
     StringBuffer buffer;
     Writer<StringBuffer> writer(buffer);
