@@ -5,3 +5,4 @@
 > * [c++ 1x的nullptr](/src/nullptr.cpp)
 > * [c++ 14的auto](/src/auto.cpp)
 > * [c++ 1x的for](/src/for.cpp)
+> * [c++ 1x的using](/src/using.cpp)
