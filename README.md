@@ -6,3 +6,4 @@
 > * [c++ 14的auto](/src/auto.cpp)
 > * [c++ 1x的for](/src/for.cpp)
 > * [c++ 1x的using](/src/using.cpp)
+> * [c++ 1x的模板变长参数](/src/using.cpp)
