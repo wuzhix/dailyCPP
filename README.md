@@ -10,3 +10,4 @@
 > * [c++ 1x的override和final](/src/override_final.cpp)
 > * [c++ 1x的default和delete](/src/default_delete.cpp)
 > * [c++ 1x的lambda用法](/src/lambda.cpp)
+> * [c++ 1x的function用法](/src/function.cpp)
