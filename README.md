@@ -12,3 +12,4 @@
 > * [c++ 1x的lambda用法](/src/lambda.cpp)
 > * [c++ 1x的function用法](/src/function.cpp)
 > * [c++ 1x的右值引用](/src/rvalue_reference.cpp)
+> * [c++ 1x的thread用法](/src/thread.cpp)
